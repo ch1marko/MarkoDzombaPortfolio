@@ -1,0 +1,134 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+   
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    margin-left: -10px;
+    text-align: center;
+    font-style: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    backdrop-filter: blur(50px);
+  }
+
+.content h1 {
+    margin-top: 300px;
+    font-family: righteous;
+    font-size: 72px;
+
+    background: -o-linear-gradient(to right, #97C6CF, #401d58, #000000);
+    background: -moz-linear-gradient(to right, #97C6CF, #401d58, #000000);
+    background: linear-gradient(to right, #97C6CF,  #401d58, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.content .dev {
+    font-family: Gruppo;
+    margin-top: -30px;
+    background: -o-linear-gradient(to right, #97C6CF, #692F8F, #000000);
+    background: -moz-linear-gradient(to right, #97C6CF, #692F8F, #000000);
+    background: linear-gradient(to right, #97C6CF, #692F8F, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.box-2 {
+    margin-top: 80px;
+  height: 33.33%;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  margin-top: 700px;
+}
+
+.btn-two {
+    color: rgba(37, 17, 37, 0.2);
+    transition: all 0.5s;
+    position: relative; 
+  }
+  .btn-two span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Gruppo;
+    background: -o-linear-gradient(to right, #97C6CF, #692F8F, #000000);
+    background: -moz-linear-gradient(to right, #97C6CF, #692F8F, #000000);
+    background: linear-gradient(to right, #97C6CF, #692F8F, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 3px solid  rgba(37, 17, 37, 0.5);
+    
+  }
+  .btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 3px solid rgba(37, 17, 37, 0.5);
+    
+  }
+  .btn-two:hover::before {
+    transform: rotate(-45deg);
+    border: 3px solid rgba(37, 17, 37, 0.5);
+  }
+  .btn-two:hover::after {
+    transform: rotate(45deg);
+    border: 3px solid rgba(37, 17, 37, 0.5);
+  }
+  
+
