@@ -135,14 +135,7 @@ body {
 
 nav.scrolled {
 
-    backdrop-filter: blur(4px);
-}
-
-ul.scrolled li a {
-    color: #a6795b;
-    border-radius: 20px;
-    backdrop-filter: blur(2px);
-    background-size: cover;
+    background-color:#002039;
 }
 
 /* footer */
