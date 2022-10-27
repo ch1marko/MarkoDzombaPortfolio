@@ -2,14 +2,7 @@
 #about-section {
   background: rgb(113, 9, 121);
   background: linear-gradient(90deg, rgba(113, 9, 121, 1) 0%, rgba(107, 10, 118, 1) 0%, rgba(100, 11, 114, 1) 0%, rgba(67, 18, 95, 1) 0%, rgba(41, 23, 80, 1) 0%, rgba(0, 32, 57, 1) 0%, rgba(0, 20, 36, 1) 51%, rgba(0, 20, 36, 1) 57%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
-}
-
-.bg {
-
-  background: rgb(113, 9, 121);
-  background: linear-gradient(90deg, rgba(113, 9, 121, 1) 0%, rgba(107, 10, 118, 1) 0%, rgba(100, 11, 114, 1) 0%, rgba(67, 18, 95, 1) 0%, rgba(41, 23, 80, 1) 0%, rgba(0, 32, 57, 1) 0%, rgba(0, 20, 36, 1) 51%, rgba(0, 20, 36, 1) 57%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
-  background-size: cover;
-  background-position: center center;
+  position: relative;
 }
 
 body {
@@ -62,37 +55,41 @@ body {
 
 #header {
   position: sticky;
-  background: rgb(113, 9, 121);
-  background: linear-gradient(90deg, rgba(113, 9, 121, 1) 0%, rgba(107, 10, 118, 1) 0%, rgba(100, 11, 114, 1) 0%, rgba(67, 18, 95, 1) 0%, rgba(41, 23, 80, 1) 0%, rgba(0, 32, 57, 1) 0%, rgba(0, 20, 36, 1) 51%, rgba(0, 20, 36, 1) 57%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+  overflow: hidden;
 }
 
 #menu-list1 a {
-  color: rgb(160, 158, 158);
+  color: rgb(143, 142, 142);
 }
 
 .navbar-brand {
   font-family: Nothing you could do;
-  font-size: large
+  font-size: large;
+  color: rgb(142, 95, 24);
 }
 
 .collapse ul li a {
   font-family: Gruppo;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5px;    
+ 
 }
 
+
 .scrolled {
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(20px);
 }
 
 .scrolled .navbar-brand {
   color: rgb(142, 95, 24);
   font-weight: bold;
+  backdrop-filter: blur(20px);
 }
 
-.scrolled ul li a {
-  color: black;
+.scrolled #menu-list1 li a{
+  color: rgb(142, 95, 24);
 }
+
+
 
 
 
