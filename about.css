@@ -1,34 +1,42 @@
 /* Background */
 #about-section {
-    background: rgb(113,9,121);
-    background: linear-gradient(90deg, rgba(113,9,121,1) 0%, rgba(107,10,118,1) 0%, rgba(100,11,114,1) 0%, rgba(67,18,95,1) 0%, rgba(41,23,80,1) 0%, rgba(0,32,57,1) 0%, rgba(0,20,36,1) 51%, rgba(0,20,36,1) 57%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
-   
+  background: rgb(113, 9, 121);
+  background: linear-gradient(90deg, rgba(113, 9, 121, 1) 0%, rgba(107, 10, 118, 1) 0%, rgba(100, 11, 114, 1) 0%, rgba(67, 18, 95, 1) 0%, rgba(41, 23, 80, 1) 0%, rgba(0, 32, 57, 1) 0%, rgba(0, 20, 36, 1) 51%, rgba(0, 20, 36, 1) 57%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
 }
-body
-{    
-    min-height: 2px;
-    width: 100%;
-   width: 100vw;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+
+.bg {
+
+  background: rgb(113, 9, 121);
+  background: linear-gradient(90deg, rgba(113, 9, 121, 1) 0%, rgba(107, 10, 118, 1) 0%, rgba(100, 11, 114, 1) 0%, rgba(67, 18, 95, 1) 0%, rgba(41, 23, 80, 1) 0%, rgba(0, 32, 57, 1) 0%, rgba(0, 20, 36, 1) 51%, rgba(0, 20, 36, 1) 57%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+  background-size: cover;
+  background-position: center center;
 }
+
+body {
+  min-height: 2px;
+  width: 100%;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 /* Little box with text */
 .blockabout {
-    margin-top: 100px;
-    padding: 20px;
-    background: rgb(238, 232, 232);
-    font-family: Guppo;
-    border-radius: 60px;
-    box-shadow: 10px 5px 20px 4px black;
+  margin-top: 100px;
+  padding: 20px;
+  background: rgb(238, 232, 232);
+  font-family: Guppo;
+  border-radius: 60px;
+  box-shadow: 10px 5px 20px 4px black;
 }
 
 .blockabout-inner {
 
-font-family: Gruppo;
-    padding: 20px;
-    border: 1px solid rgba(93, 39, 181, 0.1);
-    border-radius: 50px;
+  font-family: Gruppo;
+  padding: 20px;
+  border: 1px solid rgba(93, 39, 181, 0.1);
+  border-radius: 50px;
 }
 
 /* Social Media Icons */
@@ -36,85 +44,83 @@ font-family: Gruppo;
 
 /* Book Me Button */
 .rey-btn {
-    border: 2px solid #070707;
-    padding: 10px 40px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 13px;
-    font-weight: 700;
-    border-radius: 50px;
-    transition: all 0.3s;
+  border: 2px solid #070707;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 50px;
+  transition: all 0.3s;
 }
 
 .container-fluid {
-    font-family: Gruppo;
-   
-    
+  font-family: Gruppo;
+
+
 }
 
-  #header {
-    position: sticky;
-    background: rgb(113,9,121);
-    background: linear-gradient(90deg, rgba(113,9,121,1) 0%, rgba(107,10,118,1) 0%, rgba(100,11,114,1) 0%, rgba(67,18,95,1) 0%, rgba(41,23,80,1) 0%, rgba(0,32,57,1) 0%, rgba(0,20,36,1) 51%, rgba(0,20,36,1) 57%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
-   
-    
-  }
+#header {
+  position: sticky;
+  background: rgb(113, 9, 121);
+  background: linear-gradient(90deg, rgba(113, 9, 121, 1) 0%, rgba(107, 10, 118, 1) 0%, rgba(100, 11, 114, 1) 0%, rgba(67, 18, 95, 1) 0%, rgba(41, 23, 80, 1) 0%, rgba(0, 32, 57, 1) 0%, rgba(0, 20, 36, 1) 51%, rgba(0, 20, 36, 1) 57%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+}
 
-  #menu-list1 a{
-    color: rgb(160, 158, 158);
-  }
-  .navbar-brand {
-    font-family: Nothing you could do;
-    font-size: xx-large
-  }
-  
-  .collapse ul li a {
-    font-family: Gruppo;
-    letter-spacing: 0.5px;
-  }
-  
-  .scrolled {
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
-  }
-  
-  .scrolled .navbar-brand {
-    color: rgb(142, 95, 24);
-    font-weight: bold;
-  }
-  
-  .scrolled ul li a {
-    color: black;
-  }
-  
-  
- 
+#menu-list1 a {
+  color: rgb(160, 158, 158);
+}
+
+.navbar-brand {
+  font-family: Nothing you could do;
+  font-size: large
+}
+
+.collapse ul li a {
+  font-family: Gruppo;
+  letter-spacing: 0.5px;
+}
+
+.scrolled {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.scrolled .navbar-brand {
+  color: rgb(142, 95, 24);
+  font-weight: bold;
+}
+
+.scrolled ul li a {
+  color: black;
+}
+
+
 
 /* footer */
 
 footer {
-    margin-top: 100px;
-    border: 2px solid black;
-    width: 100%;
-    background-color: black;
-    padding-top: 10px;
-    color: white;
+  margin-top: 100px;
+  border: 2px solid black;
+  width: 100%;
+  background-color: black;
+  padding-top: 10px;
+  color: white;
 }
 
 p {
-    font-size: 13px;
-    padding-left: 10px;
+  font-size: 13px;
+  padding-left: 10px;
 }
 
 a {
-    padding: 10px;
-    font-size: 10px;
-    font-size: 13px;
+  padding: 10px;
+  font-size: 10px;
+  font-size: 13px;
 }
 
 .last {
-    display: flex;
-    justify-content: center;
-    padding-left: 40px;
-    padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
