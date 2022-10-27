@@ -2,9 +2,17 @@
 #about-section {
     background: rgb(113,9,121);
     background: linear-gradient(90deg, rgba(113,9,121,1) 0%, rgba(107,10,118,1) 0%, rgba(100,11,114,1) 0%, rgba(67,18,95,1) 0%, rgba(41,23,80,1) 0%, rgba(0,32,57,1) 0%, rgba(0,20,36,1) 51%, rgba(0,20,36,1) 57%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
-    position: relative;
+   
 }
-
+body
+{    
+    min-height: 2px;
+    width: 100%;
+   width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 /* Little box with text */
 .blockabout {
     margin-top: 100px;
@@ -24,19 +32,7 @@ font-family: Gruppo;
 }
 
 /* Social Media Icons */
-.socmed a i {
-    border: 1px solid #070707;
-    border-radius: 50%;
-    color: #070707;
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    margin: auto 3px;
-    font-size: 15px;
-    text-align: center;
-    transition: all 0.3s;
-}
+
 
 /* Book Me Button */
 .rey-btn {
@@ -52,83 +48,47 @@ font-family: Gruppo;
 
 .container-fluid {
     font-family: Gruppo;
+   
     
 }
 
-#mainNavigation a {
-    font-family: 'Gruppo', sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-}
-
-.dropdown-menu {
-    background: #a6795b
-}
-
-a.dropdown-toggle {
-    color: #dfdfdf !important
-}
-
-a.dropdown-item:hover {
-    color: #a6795b !important
-}
-
-.nav-item a {
-    color: #dfdfdf;
-
-}
-
-.nav-link.active {
-    color: #a6795b;
-}
-
-.nav-item a:hover {
-    color: #a6795b
-}
-
-.nav-item {
-    min-width: 12vw;
-}
-
-#mainNavigation {
+  #header {
     position: sticky;
-    top: 0px;
-    width: 100%;
-    padding-bottom: 135px;
-    height: 10vh;
-    z-index: 9;
-}
+    background: rgb(113,9,121);
+    background: linear-gradient(90deg, rgba(113,9,121,1) 0%, rgba(107,10,118,1) 0%, rgba(100,11,114,1) 0%, rgba(67,18,95,1) 0%, rgba(41,23,80,1) 0%, rgba(0,32,57,1) 0%, rgba(0,20,36,1) 51%, rgba(0,20,36,1) 57%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+   
+    
+  }
 
-#navbarNavDropdown.collapsing .navbar-nav,
-#navbarNavDropdown.show .navbar-nav {
-    background: #a6795b;
-    padding: 12px;
-}
-
-.navbar-toggler {
-
-    backdrop-filter: blur(2px);
+  #menu-list1 a{
+    color: rgb(160, 158, 158);
+  }
+  .navbar-brand {
+    font-family: Nothing you could do;
+    font-size: xx-large
+  }
+  
+  .collapse ul li a {
+    font-family: Gruppo;
+    letter-spacing: 0.5px;
+  }
+  
+  .scrolled {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+  }
+  
+  .scrolled .navbar-brand {
+    color: rgb(142, 95, 24);
     font-weight: bold;
-
-}
-
-.typer {
-    font-family: "Gruppo";
-    font-weight: 400;
-}
-
-body {
-    min-height: 2px;
-}
-
-
-
-nav.scrolled {
-
-    background-color:#002039;
-}
+  }
+  
+  .scrolled ul li a {
+    color: black;
+  }
+  
+  
+ 
 
 /* footer */
 
