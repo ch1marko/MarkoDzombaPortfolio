@@ -8,7 +8,7 @@
 /* Little box with text */
 .blockabout {
     margin-top: 100px;
-    padding: 30px;
+    padding: 20px;
     background: rgb(238, 232, 232);
     font-family: Guppo;
     border-radius: 60px;
@@ -16,7 +16,9 @@
 }
 
 .blockabout-inner {
-    padding: 30px;
+
+font-family: Gruppo;
+    padding: 20px;
     border: 1px solid rgba(93, 39, 181, 0.1);
     border-radius: 50px;
 }
@@ -48,19 +50,9 @@
     transition: all 0.3s;
 }
 
-.sendbutton {
-    border: 2px solid #070707;
-    padding: 10px 40px;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 13px;
-    font-weight: bold;
-    border-radius: 800%;
-
-}
-
 .container-fluid {
     font-family: Gruppo;
+    
 }
 
 #mainNavigation a {

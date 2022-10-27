@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="animate__animated animate__zoomIn">
 
 <head>
     <meta charset="utf-8">
@@ -14,14 +14,17 @@
         href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gruppo&family=Montserrat:wght@400;600&family=Nothing+You+Could+Do&family=Righteous&family=Silkscreen&display=swap"
         rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
 
+    <!--------------------------------N A V B A R -------------------------------->
     <nav id="header" class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand fs-3" href="#" style="font-family:Righteous;color: rgb(206, 201, 201);">Marko Dzomba</a>
+            <a class="navbar-brand fs-3" href="#" style="font-family:Righteous;color: rgb(206, 201, 201);">Marko
+                Dzomba</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,7 +35,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#click-about">ABOUT </a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#click-date">PROJECTS</a>
                     </li>
@@ -69,42 +71,39 @@
                                 <!-- ABOUT ME, TEXT -->
                                 <h3 class="main-title fs-1">Hi!</h3>
                             </div>
-                            <p class="description-p text-muted">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea doloribus delectus deleniti
-                                dolorem voluptatibus quam optio blanditiis tempore ratione praesentium.
+                            <p class="description-p text-muted" style="font-size: 18px;">
+                                mein Name ist Marko Dzomba,&nbsp; Web Developer und Design Liebhaber,&nbsp; mit
+                                einer Leidenschaft benutzerfreundliche Websites und Anwendungen zu kreiren.
+                                <br />
+                                <br />
+                                Mit der Hilfe von HTML,&nbsp; CSS,&nbsp; JavaScript,&nbsp; Bootstrap,&nbsp; Angular und
+                                Gimp
+                                erfülle ich mehr als gerne Web-entwicklerische Wünsche.
+                                <br />
+                                Ich bin ein offener Mensch der gerne in einem Team arbeitet, &nbsp; dazu helfe ich
+                                meinen Kollegen,&nbsp; mehr als gerne,&nbsp; und gebe mein Bestes
+                                eine gute Stimmung und Teamgeist zu pflegen.
+                                <br />
+                                <br />
+                                Es würde mich sehr freuen, &nbsp; wenn Sie sich bei einem persönlichen Gespräch, &nbsp;
+                                noch ein vollständigeres Bild von mir machen würden!
                             </p>
-                            <p class="description-p text-muted">Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Reiciendis, perspiciatis ratione! Unde optio exercitationem
-                                voluptatibus cum, ex nesciunt sapiente earum, asperiores officiis repudiandae cumque,
-                                aperiam aliquid molestiae iure. Ratione, explicabo.</p>
-                            <!-- SOCIAL MEDIA ICONS/BUTTONS -->
-                            <div class="socmed pt-3 pb-3"><span class="text-white"></span>
-                                <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
-                                <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-                                <a href="https://flickr.com"><i class="fa fa-flickr"></i></a>
-                                <a href="https://pinterest.com"><i class="fa fa-pinterest"></i></a>
-                            </div>
                             <!-- DROPDOWN BUTTON -->
                             <div class="dropdown">
-                                <button class="btn rey-btn mt-3 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                <button class="btn rey-btn mt-3" type="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    BOOK ME
+                                    CV Herunterladen
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Photoshoot</a></li>
-                                    <li><a class="dropdown-item" href="#">Hourly Sessions</a></li>
-                                    <li><a class="dropdown-item" href="#">Videography</a></li>
-                                </ul>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <!-- PHOTO WITH THE HAND HOLDING CAMERA -->
+                <!-- PROFILE PHOTO -->
                 <div class="col-lg-6 mt-5 mt-lg-0 pt-5">
                     <figure class="about-photo">
-                        <img style="border-radius: 50px; box-shadow: 10px 5px 60px 4px black; height: 690px;" class="img-fluid"
-                            src="/media/marko.jpg" alt="about-photo" />
+                        <img style="border-radius: 50px; box-shadow: 10px 5px 60px 4px black" class="img-fluid"
+                            src="/media/marko1.jpg" alt="about-photo" />
                     </figure>
                 </div>
             </div>
@@ -113,53 +112,6 @@
 
     <!-------------------- C O N T A C T    F O R M ----------------------------->
 
-    <section class="container-fluid">
-        <h2 class="contact-title font-weight-bold text-left ms-5">CONTACT ME</h2>
-        <p class="text-center w-responsive mx-auto mb-5 text-white">Do you have any questions? </p>
-        <div class="row">
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="md-form mb-0 ms-5">
-                                <input type="text" id="name" name="name" placeholder="Name and Last Name"
-                                    class="form-control">
-                                <label for="name" class="">Your name</label>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="md-form mb-0 ms-5">
-                                <input type="text" id="email" name="email" placeholder="E-mail Address"
-                                    class="form-control">
-                                <label for="email" class="">Your email</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form ms-5">
-                                <input type="text" id="subject" name="subject" placeholder="Subject"
-                                    class="form-control">
-                                <label for="subject" class="">Subject</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 mt-0">
-                            <div class="md-form ms-5">
-                                <textarea type="text" id="message" name="message" rows="2"
-                                    class="form-control md-textarea" placeholder="Message..."></textarea>
-                                <label for="message">Your message</label>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="text-left ms-5 mt-4">
-                    <a id="box" class="sendbutton btn btn-transparent rounded-5 border-dark mb-5">Send</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- footer -->
     <footer>
