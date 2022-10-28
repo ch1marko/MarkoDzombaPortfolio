@@ -32,7 +32,6 @@ body {
   border-radius: 50px;
 }
 
-/* Social Media Icons */
 
 
 /* Book Me Button */
@@ -91,6 +90,39 @@ body {
 
 
 
+.subheading{
+  display: flex;
+  justify-content: center;
+  font-family: Gruppo;
+  font-size: 30px;
+  color: gray;
+}
+
+.list-inline{
+  margin-top: 80px;
+  display: flex;
+  justify-content:space-around;
+  font-size: 80px;
+  color: gray;
+}
+
+section.resume-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+  font-family: Gruppo;
+  color: gray;
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+
 
 
 /* footer */
@@ -120,4 +152,18 @@ a {
   justify-content: center;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
