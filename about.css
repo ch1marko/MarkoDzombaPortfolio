@@ -88,13 +88,18 @@ body {
   color: rgb(142, 95, 24);
 }
 
-
+h2{
+  font-family: Gruppo;
+  font-size: 60px;
+  color: gray;
+  text-align: center;
+}
 
 .subheading{
   display: flex;
   justify-content: center;
   font-family: Gruppo;
-  font-size: 30px;
+  font-size: 25px;
   color: gray;
 }
 
@@ -102,7 +107,7 @@ body {
   margin-top: 80px;
   display: flex;
   justify-content:space-around;
-  font-size: 80px;
+  font-size: 60px;
   color: gray;
 }
 
