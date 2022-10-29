@@ -136,6 +136,31 @@ section.resume-section .resume-section-content {
   object-fit: cover;
 }
 
+
+.w-100 {
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+
+.overlay{
+  background-color: rgb(142, 95, 24);;
+}
+
+.w-100:hover {
+  opacity: 0.2;
+  background: transparent;
+  padding: 10px;
+  border-radius: 60%;
+}
+
+.w-100:hover .overlay {
+  opacity: 0.2;
+  border-radius: 60%;
+  background-color: rgb(142, 95, 24);
+}
+
 /* footer
 
 footer {
