@@ -104,11 +104,14 @@ h2{
 }
 
 .list-inline{
+  display: flex;
+  justify-content: space-between;
   margin-top: 80px;
   font-size: 70px;
-  padding:20px;
+  margin-right: 60px;
   color: gray;
 }
+
 
 section.resume-section {
   display: flex;
@@ -238,7 +241,7 @@ a {
 
   .list-inline{
     margin-top: 80px;
-    margin-left:300px;
+
     font-size: 70px;
     padding:20px;
     color: gray;
