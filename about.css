@@ -155,12 +155,6 @@ section.resume-section .resume-section-content {
   border-radius: 60%;
 }
 
-.w-100:hover .overlay {
-  opacity: 0.2;
-  border-radius: 60%;
-  background-color: rgb(142, 95, 24);
-}
-
 /* footer
 
 footer {
