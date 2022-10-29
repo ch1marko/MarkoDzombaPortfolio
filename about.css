@@ -139,7 +139,7 @@ section.resume-section .resume-section-content {
 
 .w-100 {
   display: block;
-  transition: .5s ease;
+  transition: .4s ease;
   backface-visibility: hidden;
   cursor: pointer;
 }
@@ -149,9 +149,9 @@ section.resume-section .resume-section-content {
 }
 
 .w-100:hover {
-  opacity: 0.2;
+  opacity: 0.4;
   background: transparent;
-  padding: 10px;
+  padding: 20px;
   border-radius: 60%;
 }
 
