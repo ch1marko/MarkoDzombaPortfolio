@@ -15,4 +15,8 @@ window.onscroll = function () {
 }
 
 
+const header= document.getElementById("header1");
+header.scrollIntoView();
+
+
 

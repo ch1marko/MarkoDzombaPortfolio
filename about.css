@@ -299,6 +299,11 @@ a {
 
 @media (min-width: 1200px){
 
+  .blockabout {
+    margin-top: 60px;
+   
+  }
+
   .list-inline{
     margin-top: 80px;
 
@@ -307,7 +312,7 @@ a {
     color: gray;
   }
   #profile img{
-    margin-top: 50px;
+    margin-top: -10px;
   }
 
 }
