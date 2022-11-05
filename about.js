@@ -14,6 +14,4 @@ window.onscroll = function () {
 
 }
 
-window.onload = function myFunction () {
-  window.scrollTo(1, 1);
-}
+history.scrollRestoration = 'manual';
