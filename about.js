@@ -15,5 +15,5 @@ window.onscroll = function () {
 }
 
 window.onload = function () {
-  window.scrollTo(0, 0);
+  window.scrollTo(1, 1);
 }
