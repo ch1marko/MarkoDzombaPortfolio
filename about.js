@@ -14,6 +14,6 @@ window.onscroll = function () {
 
 }
 
-window.onload = function () {
+window.onload = function myFunction () {
   window.scrollTo(1, 1);
 }
