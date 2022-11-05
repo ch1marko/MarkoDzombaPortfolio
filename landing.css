@@ -22,7 +22,8 @@
 
 .content h1 {
     margin-top: 300px;
-    font-family: righteous;
+    font-family: Major Mono Display;
+    font-weight: bolder;
     font-size: 72px;
 
     background: -o-linear-gradient(to right, #97C6CF, #401d58, #000000);
