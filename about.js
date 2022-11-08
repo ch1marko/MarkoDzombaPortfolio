@@ -16,6 +16,8 @@ window.onscroll = function () {
 }
 
 //------------------- CLOSE NAVBAR WHEN LINK CLICKED
+
+
 const navLinks = document.querySelectorAll('.nav-item')
 const bsCollapse = document.getElementById('navbarSupportedContent').Collapse;
 navLinks.forEach((l) => {
