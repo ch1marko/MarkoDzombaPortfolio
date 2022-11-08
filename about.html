@@ -61,7 +61,7 @@
             </div>
         </div>
     </nav> -->
-
+     <div id="up"></div>
     <section id="about-section" class="pt-0">
 
 
@@ -74,20 +74,20 @@
                     <span class="navbar-toggler-icon navbar-dark"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul id="menu-list1" class="navbar-nav me-auto mb-2 mb-lg-0 fs-3" style="margin-left:15px;">
+                    <ul id="menu-list1" class="navbar-nav me-auto mb-2 mb-lg-0 fs-3" style="margin-left:15px;"  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                         <li class="nav-item">
-                            <a class="nav-link p-2" aria-current="page" href="#">Home </a>
+                            <a onclick="goTo()" class="nav-link p-2" aria-current="page" href="#">Home </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
+                            <a onclick="goTo1()" class="nav-link" href="#skills">Skills</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#projekte">Projekte</a>
+                            <a onclick="goTo2()" class="nav-link" href="#projekte">Projekte</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a onclick="goTo3()" class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <ul class="d-flex navbar-right">
@@ -153,13 +153,14 @@
                     <figure class="about-photo">
                         <img style="border-radius: 50px; box-shadow: 10px 5px 60px 4px black; margin-bottom: 20px;"
                             class="img-fluid" src="/media/marko1.jpg" alt="about-photo" />
+                            <span id="skills1"></span>
                     </figure>
                 </div>
             </div>
         </div>
         <br></br>
-
-        <h2 id="skills" class="mb-5">Skills</h2>
+         <div id="here1"></div>
+        <h2 id="skills" class="mb-1">Skills</h2>
         <h1 class="subheading mb-0 fs-1">Sprachen & Tools</h1>
         <div class="list-inline dev-icons">
             <div class="list-inline-item"><i class="fab fa-html5"></i></div>
@@ -206,7 +207,7 @@
                                         </h3>
                                         <div class="subheading fs-4 mb-3">Magister art.</div>
                                     </div>
-                                    <div class="flex-shrink-0"><span class="fs-5">Abschluss,&nbsp; 2018</span></div>
+                                    <div id="projekte1" class="flex-shrink-0"><span class="fs-5">Abschluss,&nbsp; 2018</span></div>
                                 </div>
                             </div>
                         </div>
