@@ -14,4 +14,8 @@ window.onscroll = function () {
 
 }
 
+function openCV(){
+    window.open("./media/web_dev.pdf", "_blank")
+}
+
 history.scrollRestoration = 'manual';
