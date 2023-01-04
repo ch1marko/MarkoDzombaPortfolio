@@ -36,7 +36,7 @@ function goTo2(){
 }
 function goTo3(){
     document.getElementById("contact").scrollIntoView();
-}
+} 
 
 function openCV(){
     window.open("./media/web_dev.pdf", "_blank")
