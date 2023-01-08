@@ -39,7 +39,7 @@ function goTo3(){
 } 
 
 function openCV(){
-    window.open("./media/web_dev.pdf", "_blank")
+    window.open("./media/web-dev.pdf", "_blank")
 }
 
 //------------REFRESH TO TOP OF PAGE
